@@ -2,7 +2,7 @@
 
 ```
 module "module_get_ip" {
-    source = "https://github.com/ados1991/Get-AzureIpAvailablesAddressesSubnet.git"
+    source = "https://github.com/ados1991/terraform-azure-Get-IpAvailablesAddressesSubnet.git"
     subscription = "xxx-to provide-xxx"
     resource_group = "xxx-to provide-xxx"
     vnet_name = "xxx-to provide-xxx"
