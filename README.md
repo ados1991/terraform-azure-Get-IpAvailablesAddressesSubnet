@@ -1,7 +1,7 @@
 #Call module
 
 ```
-module "module_get_ip" {
+module "get_ips" {
     source = "https://github.com/ados1991/terraform-azure-Get-IpAvailablesAddressesSubnet.git"
     subscription = "xxx-to provide-xxx"
     resource_group = "xxx-to provide-xxx"
@@ -13,5 +13,5 @@ module "module_get_ip" {
 #Get module result
 
 ```
-result = "${module.Get-AzureIpAvailablesAddressesSubnet.ip_availables}"
+result = "${module.get_ips.ip_availables}"
 ```
