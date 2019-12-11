@@ -1,7 +1,7 @@
-Find free IP inside a vnet/subnet in azure tenant
+# Find free IP inside a vnet/subnet in azure tenant
 
 
-# Install module from git
+## Install module from git
 
 ```
 module "get_ips" {
@@ -13,7 +13,7 @@ module "get_ips" {
 }
 ```
 
-# Install module from terraform registry
+## Install module from terraform registry
 
 ```
 module "get_ips" {
@@ -25,7 +25,7 @@ module "get_ips" {
 }
 ```
 
-# Get module result
+## Get module result
 
 ```
 result = "${module.get_ips.ip_availables}"
