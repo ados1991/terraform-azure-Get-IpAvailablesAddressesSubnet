@@ -18,6 +18,7 @@ module "get_ips" {
 ```
 module "get_ips" {
     source = "ados1991/Get-IpAvailablesAddressesSubnet/azure"
+    version = "1.0.1"
     subscription = "xxx-to provide-xxx"
     resource_group = "xxx-to provide-xxx"
     vnet_name = "xxx-to provide-xxx"
